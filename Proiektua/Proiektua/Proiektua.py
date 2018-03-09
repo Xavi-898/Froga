@@ -17,4 +17,20 @@ class Persona(object):
         self.telefono = telefono
         self.email = email
         print('')
-class 
+
+class Profesor(Persona):
+    def __init__(self,departamento):
+        self.departamento = departamento
+        
+class Alumno(Persona):
+    def __init__(self,curso):
+        self.curso = curso
+        
+class Asignatura:
+    def __init__(self,nombre, descripcion):
+        self.nombre = nombre
+        self.descripcion = descripcion
+class Nota:
+    def __init__(self, total, media):
+        self.total = total
+        self.media = media
