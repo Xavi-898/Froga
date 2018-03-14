@@ -26,7 +26,8 @@ class Profesor(Persona):
 class Alumno(Persona):
     def __init__(self,curso):
         self.curso = curso
-        
+    def bistaratu(self):
+        print(self.__dict__)        
 class Asignatura:
     def __init__(self,nombre, descripcion):
         self.nombre = nombre
