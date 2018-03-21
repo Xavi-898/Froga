@@ -46,4 +46,4 @@ A1 = Asignatura('a','b')
 A1.bistaratu()
 N1=Nota(8,7)
 N1.bistaratu()
-print('kuku')
+
