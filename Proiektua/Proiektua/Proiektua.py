@@ -45,5 +45,10 @@ class Nota:
 A1 = Asignatura('a','b')
 A1.bistaratu()
 N1=Nota(8,7)
+<<<<<<< HEAD
 print('aldaketa')
 N1.bistaratu()
+=======
+N1.bistaratu()
+print('kuku')
+>>>>>>> branch 'master' of https://github.com/Xavi-898/Froga.git
