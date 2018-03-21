@@ -45,4 +45,5 @@ class Nota:
 A1 = Asignatura('a','b')
 A1.bistaratu()
 N1=Nota(8,7)
+print('aldaketa')
 N1.bistaratu()
